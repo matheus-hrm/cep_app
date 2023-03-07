@@ -32,6 +32,7 @@ class _HomePageState extends State<HomePage> {
            appBar: AppBar(
             title: const Text('Buscar CEP'),
             ),
+            ),           
            body: SingleChildScrollView(
             child: Form(
               key: formKey,
